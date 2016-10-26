@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/primaryColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <com.app.navigationdrawer.TextRegular
+                android:text="test"
+                android:textStyle="bold"
+                android:textColor="@color/colorHeaderText"
+                android:textAllCaps="true"
+                android:id="@+id/textTitle"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/menuBarIconLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_width="100dp"
+            android:layout_height="70dp">
+            <com.balysv.materialmenu.MaterialMenuView
+                android:layout_centerInParent="true"
+                android:id="@+id/material_menu_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:mm_strokeWidth="2"
+                app:mm_color="@color/colorWhite"
+                app:mm_transformDuration="1500"
+                app:mm_scale="2"/>
+        </RelativeLayout>
+</RelativeLayout>

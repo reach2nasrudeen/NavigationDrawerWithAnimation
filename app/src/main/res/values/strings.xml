@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawer</string>
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>Home</item>
+        <item>Receipts</item>
+        <item>Manage</item>
+        <item>Settings</item>
+        <item>Reports</item>
+        <item>Contact</item>
+        <item>About</item>
+    </string-array>
+</resources>
